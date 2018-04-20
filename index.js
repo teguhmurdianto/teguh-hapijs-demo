@@ -1,7 +1,7 @@
 'use strict';
 
 const Hapi = require('hapi');
-const server = new Hapi.Server({ port: 1337, host: '127.0.0.1'});
+const server = new Hapi.Server({ port: (process.env.PORT || 1337), host: '127.0.0.1'});
 
 server.route({
     method: 'GET',
