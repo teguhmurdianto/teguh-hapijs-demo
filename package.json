@@ -1,0 +1,26 @@
+{
+  "name": "teguh-hapijs-demo",
+  "version": "1.0.0",
+  "description": "demo hapijs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teguhmurdianto/teguh-hapijs-demo.git"
+  },
+  "keywords": [
+    "hapijs"
+  ],
+  "author": "Teguh Murdianto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teguhmurdianto/teguh-hapijs-demo/issues"
+  },
+  "homepage": "https://github.com/teguhmurdianto/teguh-hapijs-demo#readme",
+  "dependencies": {
+    "hapi": "^17.3.1",
+    "inert": "^5.1.0"
+  }
+}
