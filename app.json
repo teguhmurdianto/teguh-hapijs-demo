@@ -2,7 +2,7 @@
     "name": "Teguh HapiJS Demo",
     "description": "Demo HapiJS",
     "repository": "https://github.com/teguhmurdianto/teguh-hapijs-demo",
-    "logo": "http://node-js-sample.herokuapp.com/node.svg",
-    "keywords": ["node","hapijs","static"],
+    "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+    "keywords": ["node", "express", "heroku"],
     "image": "heroku/nodejs"
 }
