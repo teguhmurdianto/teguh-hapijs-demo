@@ -1,0 +1,8 @@
+{
+    "name": "Teguh HapiJS Demo",
+    "description": "Demo HapiJS",
+    "repository": "https://github.com/teguhmurdianto/teguh-hapijs-demo",
+    "logo": "http://node-js-sample.herokuapp.com/node.svg",
+    "keywords": ["node","hapijs","static"],
+    "image": "heroku/nodejs"
+}
