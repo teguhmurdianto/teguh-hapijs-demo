@@ -1,7 +1,7 @@
 'use strict';
 
 const Hapi = require('hapi');
-const server = new Hapi.Server({ port: (process.env.PORT || 3000) });
+const server = new Hapi.Server({ port: (process.env.PORT || 3000), host: '0.0.0.0' });
 
 server.route({
     method: 'GET',
@@ -20,7 +20,9 @@ server.route({
 });
 
 const init = async() => {
+    console.log('register inert starting...');
     await server.register(require('inert'));
+    console.log('register inert started...');
 
     server.route({
         method: 'GET',
@@ -30,7 +32,9 @@ const init = async() => {
         }
     });
 
+    console.log('server starting...');
     await server.start();
+    console.log('server started...');
     console.log(`server running at ${server.info.uri}`);
 };
 
